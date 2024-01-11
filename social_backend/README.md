@@ -8,6 +8,10 @@ Follow these instructions to run this project locally
 
 
 - Clone the project to local machine
+- project directory
+ ``` 
+ cd socail_backen
+  ``` 
 - Run following command in command line
     ``` 
     docker-compose up -d --build
