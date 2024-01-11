@@ -22,10 +22,9 @@ Follow these instructions to run this project locally
     docker-compose exec web python manage.py migrate
 ``` 
 
-- Create a superuser
+- Create a superuser if needed
+``` 
     docker-compose exec web python manage.py createsuperuser
+    ``` 
 <!-- - Run containers in terminal if needed
     docker-compose up -d   -->
-- Seed sample data
-
-    docker-compose exec web python manage.py seed_data
